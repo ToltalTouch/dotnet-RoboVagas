@@ -6,5 +6,8 @@ using (var bot = new LinkedInBot())
     bot.PerformLogin();
 }
 
+var infoVagas = new InfoVagas();
+infoVagas.ExibirInfoVagas();
+
 Console.WriteLine("Processo finalizado. Pressione qualquer tecla para sair.");
 Console.ReadKey();
