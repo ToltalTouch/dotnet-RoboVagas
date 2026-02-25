@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboVagas", "RoboVagas.csproj", "{1CB59733-C7D3-2085-E45F-08849A578CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB59733-C7D3-2085-E45F-08849A578CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB59733-C7D3-2085-E45F-08849A578CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB59733-C7D3-2085-E45F-08849A578CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB59733-C7D3-2085-E45F-08849A578CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB6181C6-2D9A-43DF-A584-09C8A6A59EF3}
+	EndGlobalSection
+EndGlobal

@@ -19,3 +19,4 @@ C:\C#\RoboVagas\RoboVagas\obj\Debug\net9.0\refint\RoboVagas.dll
 C:\C#\RoboVagas\RoboVagas\obj\Debug\net9.0\RoboVagas.pdb
 C:\C#\RoboVagas\RoboVagas\obj\Debug\net9.0\RoboVagas.genruntimeconfig.cache
 C:\C#\RoboVagas\RoboVagas\obj\Debug\net9.0\ref\RoboVagas.dll
+C:\C#\RoboVagas\RoboVagas\obj\Debug\net9.0\RoboVagas.sourcelink.json
