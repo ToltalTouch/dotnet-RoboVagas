@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "RoboVagas/1.0.0": {
+        "dependencies": {
+          "Selenium.Support": "4.41.0",
+          "Selenium.WebDriver": "4.41.0"
+        },
+        "runtime": {
+          "RoboVagas.dll": {}
+        }
+      },
+      "Selenium.Support/4.41.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.41.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.41.0": {
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/selenium-manager": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/selenium-manager": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/selenium-manager.exe": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RoboVagas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Selenium.Support/4.41.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZKUuiHuJKUV/7uC1eF81zSb8w2RA+JlkC1/yeM99XAa3Q8a2PgyHVA2MH9FHzufGO3nJXUe0RIx2wbBdVDgioA==",
+      "path": "selenium.support/4.41.0",
+      "hashPath": "selenium.support.4.41.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.41.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oQPPzUGYy7M5+m3cMlGUKiswVLX/TbGySKH0jHsT0B9ZNfPZO6b0aqKNopR0FmDbSgjUsHoA9Vdur81/WW4DGg==",
+      "path": "selenium.webdriver/4.41.0",
+      "hashPath": "selenium.webdriver.4.41.0.nupkg.sha512"
+    }
+  }
+}

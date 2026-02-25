@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NcSr20tkEhM=",
+  "success": true,
+  "projectFilePath": "C:\\C#\\RoboVagas\\RoboVagas\\RoboVagas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\micael.amaral\\.nuget\\packages\\selenium.support\\4.41.0\\selenium.support.4.41.0.nupkg.sha512",
+    "C:\\Users\\micael.amaral\\.nuget\\packages\\selenium.webdriver\\4.41.0\\selenium.webdriver.4.41.0.nupkg.sha512"
+  ],
+  "logs": []
+}
