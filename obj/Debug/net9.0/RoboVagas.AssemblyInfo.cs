@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoboVagas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32ed08a1cad13a1f7db76f9b17793ae62f3d5e8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+659c008f5afe1f5e72765ee18ff4df9d7e1fcb97")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoboVagas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoboVagas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

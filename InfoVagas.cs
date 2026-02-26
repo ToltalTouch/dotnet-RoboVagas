@@ -11,28 +11,16 @@ public class InfoVagas
     {
         var driverService = EdgeDriverService.CreateDefaultService();
         driverService.HideCommandPromptWindow = true;
-        _driver = new EdgeDriver(driverService);
-        _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(120));
-    }
 
-    private void HandleAlert()
-    {
-        try
-        {
-            Thread.Sleep(1000);
-            IAlert alert = _driver.SwitchTo().Alert();
-            Console.WriteLine($"Alerta encontrado com o texto: {alert.Text}");
-            alert.Accept();
-            Console.WriteLine("Alerta aceito.");
-        }
-        catch (NoAlertPresentException)
-        {
-            Console.WriteLine("Nenhum alerta presente.");
-        }
-        catch (WebDriverException ex)
-        {
-            Console.WriteLine($"Erro ao lidar com o alerta: {ex.Message}");
-        }
+        var options = new EdgeOptions();
+        options.AddUserProfilePreference("profile.default_content_setting_values.geolocation", 2);
+        options.AddUserProfilePreference("profile.default_content_setting_values.notifications", 2);
+
+        options.AddArgument("--maximize");
+        options.AddArgument("--disable-blink-features=AutomationControlled");
+
+        _driver = new EdgeDriver(driverService, options);
+        _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(120));
     }
 
     private void CookiesAlert()
@@ -76,7 +64,6 @@ public class InfoVagas
         Console.WriteLine("Exibindo informações das vagas...");
         _driver.Navigate().GoToUrl("https://www.infojobs.com.br/vagas-de-emprego-desenvolvedor-em-distrito-federal-trabalho-home-office.aspx");
 
-        HandleAlert();
         CookiesAlert();
         VagasLoop();
     }
